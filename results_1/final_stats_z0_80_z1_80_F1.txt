@@ -1,0 +1,70 @@
+Simulation Parameters
+Simulation time (in ms): 5
+Number of peers in the network (n): 40
+Percentage of slow peers (z0): 80
+Percentage of peers with low CPU (z1): 80
+Mean interarrival time between transactions (in ms) (T_tx): 100000
+Mean interarrival time between blocks (in ms) (I): 100.0
+
+Miner Statistics
+Miner ID,Slow/Fast,Low CPU/High CPU,Number of Blocks in Longest Chain,Total Number of Blocks Generated,Ratio
+1,Slow,High CPU,6,7,0.8571428571428571
+2,Slow,High CPU,0,2,0.0
+3,Slow,Low CPU,0,1,0.0
+4,Slow,Low CPU,0,0,ND
+5,Slow,Low CPU,0,0,ND
+6,Slow,High CPU,4,8,0.5
+7,Slow,Low CPU,0,0,ND
+8,Slow,Low CPU,0,0,ND
+9,Slow,Low CPU,0,1,0.0
+10,Slow,Low CPU,0,1,0.0
+11,Slow,Low CPU,0,0,ND
+12,Slow,Low CPU,0,0,ND
+13,Fast,Low CPU,0,1,0.0
+14,Slow,Low CPU,0,0,ND
+15,Slow,Low CPU,0,0,ND
+16,Slow,Low CPU,0,0,ND
+17,Fast,Low CPU,0,1,0.0
+18,Slow,Low CPU,0,0,ND
+19,Slow,Low CPU,0,1,0.0
+20,Slow,Low CPU,1,1,1.0
+21,Slow,Low CPU,0,0,ND
+22,Slow,Low CPU,0,1,0.0
+23,Slow,Low CPU,0,1,0.0
+24,Fast,Low CPU,0,1,0.0
+25,Slow,Low CPU,0,0,ND
+26,Slow,Low CPU,0,1,0.0
+27,Slow,Low CPU,0,1,0.0
+28,Slow,High CPU,0,3,0.0
+29,Slow,Low CPU,0,0,ND
+30,Slow,Low CPU,1,1,1.0
+31,Slow,Low CPU,0,0,ND
+32,Slow,Low CPU,0,1,0.0
+33,Slow,Low CPU,0,0,ND
+34,Slow,Low CPU,0,0,ND
+35,Slow,High CPU,0,7,0.0
+36,Slow,Low CPU,0,0,ND
+37,Slow,Low CPU,0,0,ND
+38,Fast,Low CPU,0,0,ND
+39,Slow,High CPU,0,2,0.0
+40,Slow,Low CPU,0,0,ND
+[Number] Slow, Low CPU miners: 30
+[Number] Fast, Low CPU miners: 4
+[Number] Slow, High CPU miners: 6
+[Number] Fast, High CPU miners: 0
+[Number] Low CPU miners: 34
+[Number] High CPU miners: 6
+
+Overall Miner Statistics
+[Average ratio] Slow, Low CPU miners: 0.18181818181818182
+[Average ratio] Fast, Low CPU miners: 0.0
+[Average ratio] Slow, High CPU miners: 0.3448275862068966
+[Average ratio] Fast, High CPU miners: ND
+[Number] Low CPU miners who did not contribute: 20
+[Number] High CPU miners who did not contribute: 0
+
+Blockchain tree Statistics
+Minimum number of branches: 1
+Maximum number of branches: 9
+Average number of branches: 1.9375
+Total number of branches: 16

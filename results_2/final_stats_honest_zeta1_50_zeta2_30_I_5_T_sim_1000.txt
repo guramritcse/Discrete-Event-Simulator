@@ -1,0 +1,140 @@
+Simulation Parameters
+Simulation time (in s): 1000
+Number of peers in the network (n): 100
+Percentage of honest slow peers (z0): 50
+Percentage of honest peers with low CPU (z1): 100
+Percentage of mining power of adversary-1 (zeta1): 50
+Percentage of mining power of adversary-2 (zeta2): 30
+Mean interarrival time between transactions (in ms) (T_tx): 100000
+Mean interarrival time between blocks (in ms) (I): 5000.0
+
+Miner Statistics
+Miner ID,Slow/Fast,Low CPU/High CPU,Number of Blocks in Longest Chain,Total Number of Blocks Generated,Ratio_1,Ratio_2
+1,Fast,Attacker 1,42,48,0.875,0.84
+2,Fast,Attacker 2,0,43,0.0,0.0
+3,Fast,Low CPU,0,0,ND,0.0
+4,Slow,Low CPU,0,1,0.0,0.0
+5,Fast,Low CPU,0,1,0.0,0.0
+6,Slow,Low CPU,0,1,0.0,0.0
+7,Fast,Low CPU,0,1,0.0,0.0
+8,Slow,Low CPU,0,0,ND,0.0
+9,Slow,Low CPU,0,0,ND,0.0
+10,Fast,Low CPU,0,0,ND,0.0
+11,Fast,Low CPU,0,0,ND,0.0
+12,Fast,Low CPU,0,0,ND,0.0
+13,Fast,Low CPU,0,1,0.0,0.0
+14,Fast,Low CPU,0,0,ND,0.0
+15,Fast,Low CPU,0,0,ND,0.0
+16,Fast,Low CPU,0,2,0.0,0.0
+17,Slow,Low CPU,0,0,ND,0.0
+18,Fast,Low CPU,0,1,0.0,0.0
+19,Fast,Low CPU,0,0,ND,0.0
+20,Slow,Low CPU,0,0,ND,0.0
+21,Fast,Low CPU,0,0,ND,0.0
+22,Slow,Low CPU,0,0,ND,0.0
+23,Fast,Low CPU,1,1,1.0,0.02
+24,Slow,Low CPU,0,1,0.0,0.0
+25,Slow,Low CPU,0,0,ND,0.0
+26,Fast,Low CPU,0,1,0.0,0.0
+27,Fast,Low CPU,0,0,ND,0.0
+28,Fast,Low CPU,0,0,ND,0.0
+29,Fast,Low CPU,0,0,ND,0.0
+30,Slow,Low CPU,0,1,0.0,0.0
+31,Fast,Low CPU,0,0,ND,0.0
+32,Fast,Low CPU,0,0,ND,0.0
+33,Fast,Low CPU,0,1,0.0,0.0
+34,Fast,Low CPU,0,0,ND,0.0
+35,Slow,Low CPU,0,0,ND,0.0
+36,Slow,Low CPU,0,0,ND,0.0
+37,Slow,Low CPU,0,0,ND,0.0
+38,Fast,Low CPU,0,0,ND,0.0
+39,Fast,Low CPU,0,1,0.0,0.0
+40,Slow,Low CPU,0,0,ND,0.0
+41,Fast,Low CPU,0,0,ND,0.0
+42,Fast,Low CPU,0,0,ND,0.0
+43,Fast,Low CPU,0,0,ND,0.0
+44,Fast,Low CPU,0,1,0.0,0.0
+45,Slow,Low CPU,0,0,ND,0.0
+46,Fast,Low CPU,0,2,0.0,0.0
+47,Slow,Low CPU,0,0,ND,0.0
+48,Fast,Low CPU,0,0,ND,0.0
+49,Slow,Low CPU,0,0,ND,0.0
+50,Slow,Low CPU,0,0,ND,0.0
+51,Fast,Low CPU,0,1,0.0,0.0
+52,Fast,Low CPU,1,2,0.5,0.02
+53,Slow,Low CPU,0,0,ND,0.0
+54,Fast,Low CPU,0,1,0.0,0.0
+55,Fast,Low CPU,0,0,ND,0.0
+56,Slow,Low CPU,0,1,0.0,0.0
+57,Fast,Low CPU,0,2,0.0,0.0
+58,Slow,Low CPU,0,0,ND,0.0
+59,Slow,Low CPU,0,0,ND,0.0
+60,Fast,Low CPU,0,0,ND,0.0
+61,Fast,Low CPU,0,0,ND,0.0
+62,Fast,Low CPU,0,2,0.0,0.0
+63,Fast,Low CPU,0,0,ND,0.0
+64,Fast,Low CPU,1,1,1.0,0.02
+65,Slow,Low CPU,1,3,0.3333333333333333,0.02
+66,Fast,Low CPU,0,0,ND,0.0
+67,Fast,Low CPU,0,0,ND,0.0
+68,Fast,Low CPU,0,0,ND,0.0
+69,Fast,Low CPU,1,1,1.0,0.02
+70,Slow,Low CPU,0,1,0.0,0.0
+71,Slow,Low CPU,0,1,0.0,0.0
+72,Slow,Low CPU,0,0,ND,0.0
+73,Slow,Low CPU,0,1,0.0,0.0
+74,Fast,Low CPU,0,1,0.0,0.0
+75,Slow,Low CPU,0,1,0.0,0.0
+76,Slow,Low CPU,0,0,ND,0.0
+77,Slow,Low CPU,0,1,0.0,0.0
+78,Slow,Low CPU,0,1,0.0,0.0
+79,Slow,Low CPU,0,0,ND,0.0
+80,Fast,Low CPU,1,1,1.0,0.02
+81,Fast,Low CPU,0,2,0.0,0.0
+82,Slow,Low CPU,0,0,ND,0.0
+83,Slow,Low CPU,0,0,ND,0.0
+84,Slow,Low CPU,0,1,0.0,0.0
+85,Slow,Low CPU,0,0,ND,0.0
+86,Slow,Low CPU,0,0,ND,0.0
+87,Fast,Low CPU,0,0,ND,0.0
+88,Fast,Low CPU,0,0,ND,0.0
+89,Slow,Low CPU,0,1,0.0,0.0
+90,Slow,Low CPU,0,0,ND,0.0
+91,Slow,Low CPU,0,0,ND,0.0
+92,Fast,Low CPU,0,0,ND,0.0
+93,Slow,Low CPU,0,0,ND,0.0
+94,Slow,Low CPU,0,1,0.0,0.0
+95,Fast,Low CPU,0,0,ND,0.0
+96,Slow,Low CPU,0,0,ND,0.0
+97,Fast,Low CPU,0,0,ND,0.0
+98,Slow,Low CPU,0,1,0.0,0.0
+99,Fast,Low CPU,1,2,0.5,0.02
+100,Slow,Low CPU,0,0,ND,0.0
+[Number] Slow, Low CPU miners: 45
+[Number] Fast, Low CPU miners: 53
+[Number] Slow, High CPU miners: 0
+[Number] Fast, High CPU miners: 0
+[Number] Low CPU miners: 98
+[Number] High CPU miners: 0
+
+Overall Miner Statistics
+[Average ratio] Slow, Low CPU miners: 0.05555555555555555
+[Average ratio] Fast, Low CPU miners: 0.20689655172413793
+[Average ratio] Slow, High CPU miners: ND
+[Average ratio] Fast, High CPU miners: ND
+[Number] Low CPU miners who did not contribute: 60
+[Number] High CPU miners who did not contribute: 0
+
+Blockchain tree Statistics
+Length of longest chain: 50
+Minimum number of branches: 1
+Maximum number of branches: 36
+Average number of branches: 7.416666666666667
+Total number of branches: 12
+
+MPU Node Statistics
+[Number] Total number of blocks in main chain: 50
+[Number] Total number of blocks generated: 139
+[adv] Attacker 1: 0.875
+[adv] Attacker 2: 0.0
+[overall] Overall: 0.3597122302158273

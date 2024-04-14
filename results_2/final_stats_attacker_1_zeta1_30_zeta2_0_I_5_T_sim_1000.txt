@@ -1,0 +1,140 @@
+Simulation Parameters
+Simulation time (in s): 1000
+Number of peers in the network (n): 100
+Percentage of honest slow peers (z0): 50
+Percentage of honest peers with low CPU (z1): 100
+Percentage of mining power of adversary-1 (zeta1): 30
+Percentage of mining power of adversary-2 (zeta2): 0
+Mean interarrival time between transactions (in ms) (T_tx): 100000
+Mean interarrival time between blocks (in ms) (I): 5000.0
+
+Miner Statistics
+Miner ID,Slow/Fast,Low CPU/High CPU,Number of Blocks in Longest Chain,Total Number of Blocks Generated,Ratio_1,Ratio_2
+1,Fast,Attacker 1,40,56,0.7142857142857143,0.28169014084507044
+2,Fast,Attacker 2,0,0,ND,0.0
+3,Slow,Low CPU,1,3,0.3333333333333333,0.007042253521126761
+4,Slow,Low CPU,1,1,1.0,0.007042253521126761
+5,Slow,Low CPU,3,3,1.0,0.02112676056338028
+6,Slow,Low CPU,0,1,0.0,0.0
+7,Slow,Low CPU,1,1,1.0,0.007042253521126761
+8,Fast,Low CPU,0,0,ND,0.0
+9,Slow,Low CPU,0,0,ND,0.0
+10,Slow,Low CPU,2,2,1.0,0.014084507042253521
+11,Slow,Low CPU,0,0,ND,0.0
+12,Fast,Low CPU,0,0,ND,0.0
+13,Slow,Low CPU,2,2,1.0,0.014084507042253521
+14,Fast,Low CPU,0,1,0.0,0.0
+15,Fast,Low CPU,1,1,1.0,0.007042253521126761
+16,Fast,Low CPU,1,2,0.5,0.007042253521126761
+17,Fast,Low CPU,1,1,1.0,0.007042253521126761
+18,Slow,Low CPU,0,1,0.0,0.0
+19,Fast,Low CPU,0,0,ND,0.0
+20,Fast,Low CPU,0,2,0.0,0.0
+21,Slow,Low CPU,0,0,ND,0.0
+22,Slow,Low CPU,0,0,ND,0.0
+23,Fast,Low CPU,1,1,1.0,0.007042253521126761
+24,Fast,Low CPU,0,1,0.0,0.0
+25,Slow,Low CPU,2,2,1.0,0.014084507042253521
+26,Slow,Low CPU,0,0,ND,0.0
+27,Slow,Low CPU,0,1,0.0,0.0
+28,Fast,Low CPU,1,2,0.5,0.007042253521126761
+29,Fast,Low CPU,3,4,0.75,0.02112676056338028
+30,Fast,Low CPU,3,3,1.0,0.02112676056338028
+31,Slow,Low CPU,1,2,0.5,0.007042253521126761
+32,Fast,Low CPU,2,2,1.0,0.014084507042253521
+33,Slow,Low CPU,1,1,1.0,0.007042253521126761
+34,Slow,Low CPU,1,1,1.0,0.007042253521126761
+35,Fast,Low CPU,0,1,0.0,0.0
+36,Slow,Low CPU,0,1,0.0,0.0
+37,Slow,Low CPU,0,0,ND,0.0
+38,Fast,Low CPU,0,0,ND,0.0
+39,Slow,Low CPU,2,3,0.6666666666666666,0.014084507042253521
+40,Slow,Low CPU,3,3,1.0,0.02112676056338028
+41,Slow,Low CPU,0,0,ND,0.0
+42,Slow,Low CPU,0,0,ND,0.0
+43,Fast,Low CPU,0,0,ND,0.0
+44,Fast,Low CPU,1,1,1.0,0.007042253521126761
+45,Slow,Low CPU,1,1,1.0,0.007042253521126761
+46,Slow,Low CPU,2,2,1.0,0.014084507042253521
+47,Slow,Low CPU,2,2,1.0,0.014084507042253521
+48,Slow,Low CPU,1,1,1.0,0.007042253521126761
+49,Fast,Low CPU,1,1,1.0,0.007042253521126761
+50,Slow,Low CPU,2,2,1.0,0.014084507042253521
+51,Fast,Low CPU,3,3,1.0,0.02112676056338028
+52,Slow,Low CPU,0,0,ND,0.0
+53,Slow,Low CPU,1,1,1.0,0.007042253521126761
+54,Slow,Low CPU,1,1,1.0,0.007042253521126761
+55,Fast,Low CPU,2,2,1.0,0.014084507042253521
+56,Slow,Low CPU,0,1,0.0,0.0
+57,Slow,Low CPU,2,2,1.0,0.014084507042253521
+58,Slow,Low CPU,1,2,0.5,0.007042253521126761
+59,Fast,Low CPU,1,1,1.0,0.007042253521126761
+60,Fast,Low CPU,2,3,0.6666666666666666,0.014084507042253521
+61,Fast,Low CPU,2,2,1.0,0.014084507042253521
+62,Fast,Low CPU,1,1,1.0,0.007042253521126761
+63,Fast,Low CPU,0,0,ND,0.0
+64,Fast,Low CPU,0,0,ND,0.0
+65,Fast,Low CPU,0,0,ND,0.0
+66,Slow,Low CPU,0,1,0.0,0.0
+67,Slow,Low CPU,3,3,1.0,0.02112676056338028
+68,Slow,Low CPU,2,2,1.0,0.014084507042253521
+69,Slow,Low CPU,1,1,1.0,0.007042253521126761
+70,Fast,Low CPU,0,0,ND,0.0
+71,Fast,Low CPU,1,1,1.0,0.007042253521126761
+72,Fast,Low CPU,1,3,0.3333333333333333,0.007042253521126761
+73,Fast,Low CPU,2,2,1.0,0.014084507042253521
+74,Slow,Low CPU,0,0,ND,0.0
+75,Slow,Low CPU,1,2,0.5,0.007042253521126761
+76,Slow,Low CPU,0,0,ND,0.0
+77,Slow,Low CPU,1,1,1.0,0.007042253521126761
+78,Slow,Low CPU,4,5,0.8,0.028169014084507043
+79,Fast,Low CPU,2,2,1.0,0.014084507042253521
+80,Fast,Low CPU,3,3,1.0,0.02112676056338028
+81,Slow,Low CPU,0,1,0.0,0.0
+82,Slow,Low CPU,2,2,1.0,0.014084507042253521
+83,Fast,Low CPU,0,0,ND,0.0
+84,Fast,Low CPU,0,0,ND,0.0
+85,Fast,Low CPU,2,2,1.0,0.014084507042253521
+86,Fast,Low CPU,1,1,1.0,0.007042253521126761
+87,Fast,Low CPU,1,1,1.0,0.007042253521126761
+88,Slow,Low CPU,3,4,0.75,0.02112676056338028
+89,Slow,Low CPU,2,5,0.4,0.014084507042253521
+90,Fast,Low CPU,1,1,1.0,0.007042253521126761
+91,Slow,Low CPU,1,1,1.0,0.007042253521126761
+92,Fast,Low CPU,2,2,1.0,0.014084507042253521
+93,Fast,Low CPU,1,1,1.0,0.007042253521126761
+94,Fast,Low CPU,0,1,0.0,0.0
+95,Slow,Low CPU,0,0,ND,0.0
+96,Slow,Low CPU,4,4,1.0,0.028169014084507043
+97,Slow,Low CPU,0,0,ND,0.0
+98,Fast,Low CPU,0,3,0.0,0.0
+99,Slow,Low CPU,0,2,0.0,0.0
+100,Slow,Low CPU,1,1,1.0,0.007042253521126761
+[Number] Slow, Low CPU miners: 54
+[Number] Fast, Low CPU miners: 44
+[Number] Slow, High CPU miners: 0
+[Number] Fast, High CPU miners: 0
+[Number] Low CPU miners: 98
+[Number] High CPU miners: 0
+
+Overall Miner Statistics
+[Average ratio] Slow, Low CPU miners: 0.7435897435897436
+[Average ratio] Fast, Low CPU miners: 0.7413793103448276
+[Average ratio] Slow, High CPU miners: ND
+[Average ratio] Fast, High CPU miners: ND
+[Number] Low CPU miners who did not contribute: 24
+[Number] High CPU miners who did not contribute: 0
+
+Blockchain tree Statistics
+Length of longest chain: 142
+Minimum number of branches: 1
+Maximum number of branches: 7
+Average number of branches: 1.2439024390243902
+Total number of branches: 41
+
+MPU Node Statistics
+[Number] Total number of blocks in main chain: 142
+[Number] Total number of blocks generated: 193
+[adv] Attacker 1: 0.7142857142857143
+[adv] Attacker 2: ND
+[overall] Overall: 0.7357512953367875

@@ -1,0 +1,70 @@
+Simulation Parameters
+Simulation time (in ms): 5
+Number of peers in the network (n): 40
+Percentage of slow peers (z0): 20
+Percentage of peers with low CPU (z1): 80
+Mean interarrival time between transactions (in ms) (T_tx): 100000
+Mean interarrival time between blocks (in ms) (I): 100.0
+
+Miner Statistics
+Miner ID,Slow/Fast,Low CPU/High CPU,Number of Blocks in Longest Chain,Total Number of Blocks Generated,Ratio
+1,Slow,Low CPU,0,0,ND
+2,Fast,High CPU,1,2,0.5
+3,Fast,Low CPU,0,0,ND
+4,Slow,Low CPU,0,0,ND
+5,Fast,Low CPU,0,0,ND
+6,Slow,Low CPU,1,1,1.0
+7,Fast,Low CPU,1,2,0.5
+8,Fast,Low CPU,1,1,1.0
+9,Fast,High CPU,0,2,0.0
+10,Fast,Low CPU,0,1,0.0
+11,Fast,Low CPU,0,0,ND
+12,Fast,Low CPU,0,1,0.0
+13,Fast,Low CPU,0,1,0.0
+14,Fast,Low CPU,0,0,ND
+15,Fast,Low CPU,1,1,1.0
+16,Fast,Low CPU,1,1,1.0
+17,Fast,Low CPU,0,0,ND
+18,Fast,Low CPU,0,0,ND
+19,Fast,Low CPU,0,0,ND
+20,Fast,Low CPU,0,0,ND
+21,Fast,Low CPU,1,1,1.0
+22,Fast,Low CPU,0,1,0.0
+23,Slow,Low CPU,0,1,0.0
+24,Fast,Low CPU,0,0,ND
+25,Fast,Low CPU,0,1,0.0
+26,Fast,Low CPU,0,1,0.0
+27,Fast,Low CPU,0,1,0.0
+28,Fast,High CPU,0,1,0.0
+29,Slow,Low CPU,0,1,0.0
+30,Fast,High CPU,0,3,0.0
+31,Slow,Low CPU,0,0,ND
+32,Slow,Low CPU,0,0,ND
+33,Slow,Low CPU,0,0,ND
+34,Fast,Low CPU,0,0,ND
+35,Fast,Low CPU,0,0,ND
+36,Fast,High CPU,0,9,0.0
+37,Fast,Low CPU,0,1,0.0
+38,Fast,High CPU,1,4,0.25
+39,Slow,Low CPU,0,0,ND
+40,Fast,High CPU,9,11,0.8181818181818182
+[Number] Slow, Low CPU miners: 9
+[Number] Fast, Low CPU miners: 24
+[Number] Slow, High CPU miners: 0
+[Number] Fast, High CPU miners: 7
+[Number] Low CPU miners: 33
+[Number] High CPU miners: 7
+
+Overall Miner Statistics
+[Average ratio] Slow, Low CPU miners: 0.3333333333333333
+[Average ratio] Fast, Low CPU miners: 0.35714285714285715
+[Average ratio] Slow, High CPU miners: ND
+[Average ratio] Fast, High CPU miners: 0.34375
+[Number] Low CPU miners who did not contribute: 17
+[Number] High CPU miners who did not contribute: 0
+
+Blockchain tree Statistics
+Minimum number of branches: 1
+Maximum number of branches: 8
+Average number of branches: 2.0
+Total number of branches: 16

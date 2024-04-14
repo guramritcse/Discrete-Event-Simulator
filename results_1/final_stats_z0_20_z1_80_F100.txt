@@ -1,0 +1,70 @@
+Simulation Parameters
+Simulation time (in ms): 500
+Number of peers in the network (n): 40
+Percentage of slow peers (z0): 20
+Percentage of peers with low CPU (z1): 80
+Mean interarrival time between transactions (in ms) (T_tx): 100000
+Mean interarrival time between blocks (in ms) (I): 10000.0
+
+Miner Statistics
+Miner ID,Slow/Fast,Low CPU/High CPU,Number of Blocks in Longest Chain,Total Number of Blocks Generated,Ratio
+1,Fast,Low CPU,0,0,ND
+2,Fast,Low CPU,0,0,ND
+3,Fast,Low CPU,0,0,ND
+4,Slow,Low CPU,0,0,ND
+5,Fast,Low CPU,0,0,ND
+6,Slow,High CPU,7,7,1.0
+7,Fast,Low CPU,0,0,ND
+8,Fast,High CPU,7,8,0.875
+9,Fast,Low CPU,0,0,ND
+10,Fast,Low CPU,0,0,ND
+11,Fast,Low CPU,0,0,ND
+12,Slow,Low CPU,1,1,1.0
+13,Slow,Low CPU,1,1,1.0
+14,Slow,Low CPU,0,0,ND
+15,Slow,Low CPU,0,0,ND
+16,Fast,Low CPU,1,1,1.0
+17,Fast,Low CPU,0,0,ND
+18,Slow,High CPU,6,7,0.8571428571428571
+19,Fast,Low CPU,0,0,ND
+20,Fast,High CPU,9,9,1.0
+21,Slow,Low CPU,1,1,1.0
+22,Fast,High CPU,3,3,1.0
+23,Fast,Low CPU,0,0,ND
+24,Fast,Low CPU,0,0,ND
+25,Fast,Low CPU,1,1,1.0
+26,Fast,Low CPU,1,1,1.0
+27,Fast,Low CPU,1,1,1.0
+28,Fast,Low CPU,0,0,ND
+29,Fast,Low CPU,1,1,1.0
+30,Slow,Low CPU,0,0,ND
+31,Slow,Low CPU,1,1,1.0
+32,Fast,Low CPU,0,0,ND
+33,Fast,High CPU,6,6,1.0
+34,Fast,Low CPU,2,2,1.0
+35,Fast,Low CPU,0,0,ND
+36,Fast,Low CPU,0,0,ND
+37,Slow,Low CPU,0,0,ND
+38,Fast,Low CPU,0,0,ND
+39,Fast,Low CPU,0,0,ND
+40,Fast,Low CPU,0,1,0.0
+[Number] Slow, Low CPU miners: 9
+[Number] Fast, Low CPU miners: 25
+[Number] Slow, High CPU miners: 2
+[Number] Fast, High CPU miners: 4
+[Number] Low CPU miners: 34
+[Number] High CPU miners: 6
+
+Overall Miner Statistics
+[Average ratio] Slow, Low CPU miners: 1.0
+[Average ratio] Fast, Low CPU miners: 0.875
+[Average ratio] Slow, High CPU miners: 0.9285714285714286
+[Average ratio] Fast, High CPU miners: 0.9615384615384616
+[Number] Low CPU miners who did not contribute: 23
+[Number] High CPU miners who did not contribute: 0
+
+Blockchain tree Statistics
+Minimum number of branches: 1
+Maximum number of branches: 1
+Average number of branches: 1.0
+Total number of branches: 3
