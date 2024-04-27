@@ -1,4 +1,4 @@
-# CS765-Discrete-Event-Simulator
+# Discrete Event Simulator
 
 ## Team Members 
 | Name | Roll Number |
